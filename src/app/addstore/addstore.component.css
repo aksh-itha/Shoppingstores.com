@@ -1,0 +1,40 @@
+fieldset{
+    text-align: center;
+    font-size: medium;
+    /*  background-color:rgb(35, 216, 192);*/
+
+}
+h1{
+    text-align: center;
+}
+label{
+    font-size: large;
+    text-align: center;
+}
+.bg{
+    /* The image used */
+  background-image: url("https://thumbs.dreamstime.com/z/seamless-pattern-blue-outline-shopping-icons-white-background-online-shop-mobile-shopping-buying-internet-store-texture-146539385.jpg");
+    /* Full height */
+    height: 800%;
+    bottom: 200%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .form-group{
+      text-align: center;
+  }
+  .e-card{
+    text-align: center;
+    margin-left: 35%;
+    margin-right: 35%;
+    background-color:lightskyblue;
+  }
+.label{
+    font-size:large;
+}
+.btn-group btn-group-toggle{
+  color: blue;
+
+}

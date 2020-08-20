@@ -1,0 +1,68 @@
+<div class="bg">
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="e-card">
+  <br>
+  <br>
+<div class="container">
+  <div class="row-md-10">
+    <div class="col-md-10">
+      <h1>Shopping Stores</h1>
+     <form>
+      <div class="form-group">
+        <label for="Name"><strong>StoreName:</strong><br> </label> 
+        <input type="text" [(ngModel)]="store.storename" name="storename" id="storename"/>
+
+      </div>
+      <br>
+      <div class="form-group">
+        <label for="Address"> <strong>Address:</strong><br> </label> 
+        <input type="text" [(ngModel)]="store.address" name="address" id="address"/>
+
+      </div>
+      <br>
+      <div class="form-group">
+        <label for="Type"> <strong>Type:</strong><br> </label> 
+        <input type="text" [(ngModel)]="store.type"  name="type" id="type"/>      
+      </div>
+      <br>
+      <div class="form-group">
+        <label for="Timings"><strong>Timings:</strong><br> </label> 
+        <input type="number" [(ngModel)]="store.timings" name="timings" id="timings"/>
+      </div>
+      <br>
+      <div>
+        <div class="btn-group btn-group-toggle">
+           <label class="btn-primary" ngbButtonLabel>
+          <input class="btn btn-success" type="submit" name="submit_reg" value="Add" (click)="addStore()">&nbsp;&nbsp;
+           </label>
+          <button type="reset" class="btn btn-success" id="reset-btn" ng-click="reset()">Reset</button>
+      </div>
+    </div>
+</form>
+    </div>
+  </div>
+</div>
+<br>
+<br>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</div>

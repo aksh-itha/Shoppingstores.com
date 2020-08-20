@@ -1,0 +1,82 @@
+<app-root></app-root>
+<div class="bg">
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="e-card">
+  <br>
+<div class="container">
+    <div class="row">
+      <div class="col-md-10">
+        <h1>Shopping Stores</h1>
+   <form>
+       <div class="form-group">
+
+
+          <label for="Search"><strong>Search:</strong> <br> </label> 
+          <input id="address" name="address" #address>
+        </div>
+         <br>
+         
+        <div class="btn-group" role="group" aria-label="Basic example">
+           <!-- <input class="btn btn-success" type="submit" name="search" value="Search" (click)="search(searchaddress.value)">&nbsp;&nbsp; -->
+             <input class="btn btn-secondary" type="submit" name="Search" value="search" (click)="getStore(address.value)">&nbsp;&nbsp;
+            <button type="reset" class="btn btn-success" id="reset-btn" ng-click="reset()">Reset</button> 
+        </div> 
+      </form>
+      </div>
+    </div>
+</div>
+<br>
+<br>
+<br>
+<div class="container">
+ <table class="table  table-dark" id="table1" style="border-collapse: collapse;">
+  <thead>
+    <tr>
+      <th scope="col">Address</th>
+      <th scope="col">StoreName</th>
+      <th scope="col">Timings</th>
+      <th scope="col">Type</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td scope="col">{{stores.address}}</td>
+      <td scope="col">{{stores.storename}}</td>
+     <td scope="col">{{stores.timings}}</td>
+      <td scope="col">{{stores.type}}</td>
+    </tr>
+  </tbody>
+  </table>
+  <br>
+  <br>
+  <br>
+</div> 
+  </div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+  
+</div>
